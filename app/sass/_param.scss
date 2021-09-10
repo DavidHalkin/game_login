@@ -1,0 +1,66 @@
+body{
+	font: 16px/1.2 'Caslon Antique';
+	color: #505050;
+	background: #fff;
+	min-width: 1000px;
+}
+@mixin placeholder_custom{
+    &:-ms-input-placeholder {
+        @content
+    }
+    &::-moz-placeholder {
+        @content
+    }
+    &::-webkit-input-placeholder {
+        @content
+    }
+}
+.d-flex{
+	display: flex;
+}
+.align-items-center{
+	align-items:center;
+}
+.justify-content-center{
+	justify-content:center;
+}
+.list-unstyled{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.btn{
+	display: inline-flex;
+	align-items:center;
+	justify-content:center;
+	padding:5px;
+	height: 74px;
+	background: url(../images/btn.png) repeat-x;
+	font-size: 41px;
+	color: #fff;
+	border-radius: 5px;
+	box-shadow: -2px -2px 2px 0px rgba(#000,.86);
+	&:hover{
+		text-decoration: none;
+		color: #fff;
+	}
+}
+.form_control{
+	height: 74px;
+	border-radius: 6px;
+	border: 0;
+	margin: 0;
+	padding: 5px 22px;
+	color: #fff;
+	font-size: 47px;
+	width: 100%;
+	background: rgba(#000,.5);
+	&:focus{
+		box-shadow: none;
+		outline: none;
+	}
+	@include placeholder_custom {
+		color: #fff;
+		opacity: 1;
+	}
+}
