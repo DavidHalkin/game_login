@@ -47,9 +47,9 @@ body{
 	transition: all 0.3s ease;
 	&:hover{
 		text-decoration: none;
-		@media screen and (min-width: 511px) {
-			letter-spacing: 1px;
-		}
+		// @media screen and (min-width: 511px) {
+		// 	letter-spacing: 1px;
+		// }
 		filter: contrast(250%);
 		color: rgba(#c8a55e,.9);
 		box-shadow:inset 0 0 3px 0 rgba(#000,.36),-2px -2px 2px 0px rgba(#000,.86);
