@@ -1,8 +1,9 @@
 body{
-	font: 16px/1.2 'Caslon Antique';
+	font: 16px/1.2 'MedievalSharp', cursive;
+	// font-family: arial;
 	color: #505050;
 	background: #fff;
-	min-width: 600px;
+	// min-width: 600px;
 }
 @mixin placeholder_custom{
     &:-ms-input-placeholder {
@@ -14,6 +15,9 @@ body{
     &::-webkit-input-placeholder {
         @content
     }
+}
+.flex-wrap{
+	flex-wrap: wrap;
 }
 .d-flex{
 	display: flex;

@@ -15,9 +15,19 @@
 	z-index: 20;
 }
 .nav_menu{
-	padding: 20px 0;
+	padding:15px 0;
+
+	li{
+		margin: 5px 0;
+	}
 	.btn{
 		margin: 0 25px;
+	}
+	@media screen and (max-width: 510px){
+		padding:5px 0;
+		.btn{
+			margin: 0 10px;
+		}
 	}
 }
 .wrapper{
@@ -25,7 +35,7 @@
 	z-index: 2;
 }
 .bg_img{
-	position: absolute;
+	position: fixed;
 	top: 0;
 	left: 50%;
 	transform:translateX(-50%);
@@ -40,10 +50,18 @@
 	margin: 0 auto;
 	background: url(../images/form_bg.png) no-repeat;
 	background-size: cover;
+	@media screen and (max-width: 510px) {
+		width: 320px;
+		height: 367px;
+	}
 }
 .centered{
 	max-width: 400px;
 	margin: 50px auto 0;
+	@media screen and (max-width: 510px)  {
+		max-width: 85%;
+		margin-top: 20px;
+	}
 }
 .title_form{
 	padding-top:100px;
@@ -52,9 +70,17 @@
 	line-height: 24px;
 	margin-bottom: 0;
 	text-align: center;
+	@media screen and (max-width: 510px) {
+		padding-top: 65px;
+		font-size: 15px;
+		line-height: 20px;
+	}
 }
 .form_group{
 	margin-bottom: 20px;
+	@media screen and (max-width: 510px)  {
+		margin-bottom: 10px;
+	}
 }
 .text-right{
 	text-align: right;
@@ -71,6 +97,16 @@
 	a{
 		margin: 0 15px;
 		font-size: 25px;
+	}
+	@media screen and (max-width: 510px)  {
+		padding-top: 20px;
+		a{
+			font-size: 20px;
+			min-width: auto !important;
+			padding: 5px 15px;
+			height:30px;
+			margin: 0 10px;
+		}
 	}
 }
 // video
@@ -90,7 +126,7 @@
 }
 #trailer{
 	video,iframe{
-		position: absolute;
+		position: fixed;
 		top: 0;
 		left: 0;
 		width: 100%;
