@@ -94,7 +94,7 @@
 }
 .footer_buttons{
 	padding-top: 70px;
-	a{
+	a,button{
 		margin: 0 15px;
 		font-size: 25px;
 	}
@@ -134,3 +134,25 @@
 		object-fit: cover;
 	}
 }
+// .alert_info_m{
+// 	background: rgba(#000,.9);
+// 	padding:20px 40px 20px 10px;
+// 	color: #fff;
+// 	position: fixed;
+// 	top: 0;
+// 	left: 0;
+// 	right: 0;
+// 	width: 100%;
+// 	z-index: 50;
+// 	p{margin: 0;}
+// }
+// .close_alert_m{
+// 	background-image: url("data:image/svg+xml,%3Csvg aria-hidden='true' focusable='false' data-prefix='fas' data-icon='times' role='img' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 352 512' class='svg-inline--fa fa-times fa-w-11'%3E%3Cpath fill='%23fff' d='M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z' class=''%3E%3C/path%3E%3C/svg%3E");
+// 	width: 20px;
+// 	height: 25px;
+// 	background-size: cover;
+// 	display: block;
+// 	position: absolute;
+// 	right: 15px;
+// 	top: 15px;
+// }
