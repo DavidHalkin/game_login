@@ -156,3 +156,21 @@
 // 	right: 15px;
 // 	top: 15px;
 // }
+.btn_etc{
+	margin: 20px auto;
+	text-align: center;
+	.btn{
+		display: inline-block;
+		width: 100px;
+		height: 50px;
+		background: url(../images/sound_on.png) no-repeat;
+		background-size: cover;
+		&.off{
+			background: url(../images/sound_off.png) no-repeat;
+			background-size: cover;
+		}
+		&:hover{
+			filter: contrast(130%);
+		}
+	}
+}
